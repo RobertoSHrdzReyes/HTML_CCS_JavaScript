@@ -1,0 +1,73 @@
+<!-- Formularios <input>-->
+
+<!-- 
+El elemento <input> es el más versátil de todos. Este elemento genera un campo de
+entrada en el que el usuario puede seleccionar o insertar información, pero puede adoptar
+diferentes características y aceptar varios tipos de valores dependiendo del valor de su
+atributo type. Los siguientes son los valores disponibles para este atributo.
+
+text—Este valor genera un campo de entrada para insertar texto genérico.
+
+email—Este valor genera un campo de entrada para insertar cuentas de correo.
+
+search—Este valor genera un campo de entrada para insertar términos de búsqueda.
+
+url—Este valor genera un campo de entrada para insertar URL.
+
+tel—Este valor genera un campo de entrada para insertar números de teléfono.
+
+number—Este valor genera un campo de entrada para insertar números.
+
+range—Este valor genera un campo de entrada para insertar un rango de números.
+
+date—Este valor genera un campo de entrada para insertar una fecha.
+datetime-local—Este valor genera un campo de entrada para insertar fecha y hora.
+
+week—Este valor genera un campo de entrada para insertar el número de la semana
+(dentro del año).
+
+month—Este valor genera un campo de entrada para insertar el número del mes.
+
+time—Este valor genera un campo de entrada para insertar una hora (horas y minutos).
+
+hidden—Este valor oculta el campo de entrada. Se usa para enviar información
+complementaria al servidor.
+
+password—Este valor genera un campo de entrada para insertar una clave. Reemplaza
+los caracteres insertados con estrellas o puntos para ocultar información sensible.
+
+color—Este valor genera un campo de entrada para insertar un color. 
+-->
+
+<!--
+Para más información remitace al libro página 72 del pdf o 57 del libro.
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="Dectription" content="HTML,CSS,Javascript">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formulario</title>
+</head>
+<body>
+    <header>
+    	<h1>Formulario</h1>
+    </header>
+    <nav></nav>
+    <main>
+    	<section>
+    		<article>
+    			<form name="Formulario" method="get" action="procesar.php">
+    				<p><input type="text=" name="nombre"></p>
+                    <p><input type="text" name="edad"></p>
+                    <p><input type="submit" value="Enviar datos"></p>
+    			</form>
+    		</article>
+    	</section>
+    	<aside></aside>
+    </main>
+    <footer></footer>
+</body>
+</html>

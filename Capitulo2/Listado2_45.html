@@ -1,0 +1,61 @@
+<!-- Formularios -->
+
+<!-- 
+Atributos del formulario
+
+name—Este atributo especifica el nombre del formulario. También se encuentra
+disponible para otros elementos, pero es particularmente útil para elementos de
+formulario, como veremos más adelante.
+
+method—Este atributo determina el método a utilizar para enviar la información al
+servidor. Existen dos valores disponibles: GET y POST. El método GET se usa para enviar
+una cantidad limitada de información de forma pública (los datos son incluidos en la URL,
+la cual no puede contener más de 255 caracteres). Por otro lado, el método POST se utiliza
+para enviar una cantidad ilimitada de información de forma privada (los datos no son
+visibles al usuario y pueden tener la longitud que necesitemos).
+
+action—Este atributo declara la URL del archivo en el servidor que va a procesar la
+información enviada por el formulario.
+
+target—Este atributo determina dónde se mostrará la respuesta recibida desde el
+servidor. Los valores disponibles son _blank (nueva ventana), _self (mismo recuadro),
+_parent (recuadro padre), y _top (la ventana que contiene el recuadro). El valor _self
+se declara por defecto, lo que significa que la respuesta recibida desde el servidor se
+mostrará en la misma ventana.
+
+enctype—Este atributo declara la codificación aplicada a los datos que envía el
+formulario. Puede tomar tres valores: application/x-www-form-urlencoded (los
+caracteres son codificados), multipart/form-data (los caracteres no son codificados),
+text/plain (solo los espacios son codificados). El primer valor se asigna por defecto. 
+
+accept-charset—Este atributo declara el tipo de codificación aplicada al texto del
+formulario. Los valores más comunes son UTF-8 e ISO-8859-1. El valor por defecto se
+asigna al documento con el elemento <meta> (ver Listado 2-6). 
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="Dectription" content="HTML,CSS,Javascript">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formulario</title>
+</head>
+<body>
+    <header>
+    	<h1>Formulario</h1>
+    </header>
+    <nav></nav>
+    <main>
+    	<section>
+    		<article>
+    			<form name="Formulario" method="get" action="procesar.php">
+    				
+    			</form>
+    		</article>
+    	</section>
+    	<aside></aside>
+    </main>
+    <footer></footer>
+</body>
+</html>

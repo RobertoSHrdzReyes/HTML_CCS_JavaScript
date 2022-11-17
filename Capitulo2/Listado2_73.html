@@ -1,0 +1,27 @@
+<!-- Personalizando campos de entrada con el atributo pattern -->
+<!-- Declarnado un aentrada de email como campo requerido página 93 del libro-->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="Dectription" content="HTML,CSS,Javascript">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formularios</title>
+</head>
+<body>
+	<header>
+		<h2>Formularios</h2>
+	</header>
+	<nav></nav>
+	<main>
+		<section>
+			<form name="Formulario" method="get" action="procesar.php">
+				<p><label>Código postal: <input pattern="[0-9]{5}" name="cp" title="Inserte su código postal"></label></p>
+				<p><input type="submit" value="Enviar"></p>
+			</form>
+		</section>
+		<aside></aside>
+	</main>
+	<footer></footer>
+</body>
+</html>
